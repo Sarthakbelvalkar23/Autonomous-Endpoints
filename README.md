@@ -6,23 +6,22 @@ A full-stack AI-powered platform to automate household product reordering and fo
 
 ## 📦 Project Structure
 
+````text
 Autonomous-Endpoints/
-├── backend/ # Spring Boot backend API
-│ └── (Spring Boot project files)
+├── backend/                      # Spring Boot backend API
+│   └── (Spring Boot project files)
 │
-├── frontend/ # All frontend modules
-│ ├── Household/ # Vite + React UI for households
-│ ├── Retail-Inventory/ # Vite + React UI for store dashboard
-│ └── Landing-Page/ # Public landing page (Vite + React)
+├── frontend/                     # All frontend modules
+│   ├── Household/               # Vite + React UI for households
+│   ├── Retail-Inventory/       # Vite + React UI for store dashboard
+│   └── Landing-Page/           # Public landing page (Vite + React)
 │
-├── ML-Agents/ # Machine learning modules
-│ ├── Household_Prediction_ML/ # Python + Groq API (for household reorder)
-│ └── Retail_Inventory_ML/ # Bun.js + TypeScript + Groq API (for inventory forecast)
+├── ML-Agents/                    # Machine learning modules
+│   ├── Household_Prediction_ML/ # Python + Groq API (for household reorder)
+│   └── Retail_Inventory_ML/     # Bun.js + TypeScript + Groq API (for inventory forecast)
 │
 ├── .gitignore
 ├── README.md
-
----
 
 ## 🧠 Project Theme & Features
 
@@ -34,7 +33,7 @@ We developed **Autonomous Endpoints**, a full-stack AI-powered platform that bri
 
 ### 🧩 System Modules
 
-1. **Retail Inventory Module**  
+1. **Retail Inventory Module**
    Predicts product demand, optimal reorder quantity, and ideal pricing for each store by learning from:
 
    - Historical sales
@@ -42,7 +41,7 @@ We developed **Autonomous Endpoints**, a full-stack AI-powered platform that bri
    - Promotions & festivals
    - Competitor pricing
 
-2. **Smart Household Module**  
+2. **Smart Household Module**
    Learns individual household consumption and automatically predicts when items (e.g. milk, rice, detergent) will run out:
    - Generates personalized reorder carts
    - Syncs with retail inventory for real-time fulfillment
@@ -97,7 +96,7 @@ cd ML-Agents/Retail_Inventory_ML/
 bun install
 bun run index.ts
 cd ../..
-```
+````
 
 ### 🔐 Environment Variable
 
