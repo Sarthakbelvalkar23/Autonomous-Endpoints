@@ -6,7 +6,7 @@ A full-stack AI-powered platform to automate household product reordering and fo
 
 ## 📦 Project Structure
 
-````text
+```text
 Autonomous-Endpoints/
 ├── backend/                      # Spring Boot backend API
 │   └── (Spring Boot project files)
@@ -22,6 +22,7 @@ Autonomous-Endpoints/
 │
 ├── .gitignore
 ├── README.md
+```
 
 ---
 
@@ -98,7 +99,7 @@ cd ML-Agents/Retail_Inventory_ML/
 bun install
 bun run index.ts
 cd ../..
-````
+```
 
 ### 🔐 Environment Variable
 
