@@ -23,6 +23,8 @@ Autonomous-Endpoints/
 ├── .gitignore
 ├── README.md
 
+---
+
 ## 🧠 Project Theme & Features
 
 We developed **Autonomous Endpoints**, a full-stack AI-powered platform that brings predictive intelligence to inventory and households.
